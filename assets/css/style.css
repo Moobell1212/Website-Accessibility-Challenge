@@ -36,21 +36,10 @@ li {
     font-size: 20px;
 }
 
-/*adding background color to the body section*/
-body {
-    background-color: #d9dcd6;
-}
-
 /*styling for the text of the links in the header*/
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-/*styling for the text in the 'content' boxes*/
-p {
-    font-size: 16px;
-    margin-bottom: 30px;
 }
 
 /*formatting the top image on the website*/
@@ -61,6 +50,11 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*adding background color to the body section*/
+body {
+    background-color: #d9dcd6;
 }
 
 /*formatting of the boxes on the left stay next to the boxes on the right/on the left of the webpage*/
@@ -75,17 +69,12 @@ p {
     margin-left: 25px;
 }
 
+
 /*formatting the text boxes on the left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-/*formatting the titles of the text boxes on the left*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /*formatting the three text boxes on the left of the webpage*/
@@ -96,6 +85,18 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+/*formatting the titles of the text boxes on the left*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*styling for the text in the 'content' boxes*/
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 /*images in left text boxes are formatted and centered*/
@@ -124,7 +125,7 @@ h3 {
     text-align: center;
 }
 
-/*formatting of the images in the text box to teh right of the webpage*/
+/*formatting of the images in the text box to th right of the webpage*/
 .benefits img {
     display: block;
     margin: 10px auto;

@@ -1,9 +1,11 @@
+/*general styling for the whole webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*styling for the header bar*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,16 +14,19 @@ header {
     height: 95px;
 }
 
+/*formatting the Horiseon text in the header*/
 h1 {
     display: inline;
     font-size: 48px;
     float: left;
 }
 
+/*changing the color of the 'seo' in the Horiseon text*/
 h1 .seo {
     color: #d9dcd6;
 }
 
+/*styling for the links to the right of the header bar*/
 li {
     list-style-type: none;
     display: inline-block;
@@ -31,19 +36,24 @@ li {
     font-size: 20px;
 }
 
+/*adding background color to the body section*/
 body {
     background-color: #d9dcd6;
 }
 
+/*styling for the text of the links in the header*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*styling for the text in the 'content' boxes*/
 p {
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
+/*formatting the top image on the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -53,22 +63,48 @@ p {
     background-position: center;
 }
 
+/*formatting of the boxes on the left stay next to the boxes on the right/on the left of the webpage*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*formatting of the box on the right stay next to the boxes on the left/on the right of the webpage*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*formatting the text boxes on the left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*formatting the titles of the text boxes on the left*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*formatting the three text boxes on the left of the webpage*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*images in left text boxes are formatted and centered*/
+.content img {
+    max-height: 200px;
+    margin:20px;
+}
+
+/*formatting of text box to the right of the webpage*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -78,117 +114,31 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*formatting of subheadings in the text box to the right of the webpage*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*formatting of the images in the text box to teh right of the webpage*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/*next two are styling for the footer at the bottom of the webpage*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

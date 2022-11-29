@@ -14,7 +14,7 @@ header {
     height: 95px;
 }
 
-/*formatting the Horiseon text in the header*/
+/*formatting the Horiseon text in the header bar*/
 h1 {
     display: inline;
     font-size: 48px;
@@ -28,10 +28,10 @@ h1 .seo {
 
 /*styling for the links to the right of the header bar*/
 li {
-    list-style-type: none;
     display: inline-block;
     margin-top: 20px;
     margin-right: 25px;
+    margin-bottom: -25px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -43,7 +43,7 @@ a {
     text-decoration: none;
 }
 
-/*formatting the top image on the website*/
+/*formatting the first image on the webpage*/
 .main-image {
     width:100%;
     height: auto;
@@ -56,24 +56,23 @@ body {
     background-color: #d9dcd6;
 }
 
-/*formatting of the boxes on the left stay next to the boxes on the right/on the left of the webpage*/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/*formatting of the box on the right stay next to the boxes on the left/on the right of the webpage*/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
 /*formatting the text boxes on the left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/*formatting images on left text boxes to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*fformatting images on left text boxes to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /*formatting the three text boxes on the left of the webpage*/
@@ -129,16 +128,4 @@ h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/*next two are styling for the footer at the bottom of the webpage*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }

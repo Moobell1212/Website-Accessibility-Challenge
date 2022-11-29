@@ -14,6 +14,11 @@ header {
     height: 95px;
 }
 
+/*background color to the body section*/
+body {
+    background-color: #d9dcd6;
+}
+
 /*formatting the Horiseon text in the header bar*/
 h1 {
     display: inline;
@@ -44,38 +49,21 @@ a {
 }
 
 /*formatting the first image on the webpage*/
-.main-image {
+.top-image {
     width:100%;
     height: auto;
     display:block;
 margin-bottom: 15px;
 }
 
-/*adding background color to the body section*/
-body {
-    background-color: #d9dcd6;
-}
-
-/*formatting the text boxes on the left*/
+/*formatting all the text on the left on the webiste*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*formatting images on left text boxes to the left*/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/*fformatting images on left text boxes to the right*/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/*formatting the three text boxes on the left of the webpage*/
+/*formatting the three blue boxes on the left of the webpage*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 30px;
@@ -85,22 +73,34 @@ body {
     color: #ffffff;
 }
 
-/*formatting the titles of the text boxes on the left*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*formatting select images on left text boxes to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-/*styling for the text in the 'content' boxes*/
-p {
-    font-size: 16px;
-    margin-bottom: 30px;
+/*formatting select images on left text boxes to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /*images in left text boxes are formatted and centered*/
 .content img {
     max-height: 200px;
     margin:20px;
+}
+
+/*formatting the titles of the text boxes on the left*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*formatting the paragraph text in the right hand side 'content' boxes*/
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 /*formatting of text box to the right of the webpage*/

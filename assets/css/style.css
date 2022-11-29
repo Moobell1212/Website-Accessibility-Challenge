@@ -30,7 +30,8 @@ h1 .seo {
 li {
     list-style-type: none;
     display: inline-block;
-    margin: 20px 25px;
+    margin-top: 20px;
+    margin-right: 25px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -43,13 +44,11 @@ a {
 }
 
 /*formatting the top image on the website*/
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+.main-image {
+    width:100%;
+    height: auto;
+    display:block;
+margin-bottom: 15px;
 }
 
 /*adding background color to the body section*/

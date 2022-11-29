@@ -1,1 +1,1 @@
-# Website-Accessibility-Challange
+# Website-Accessibility-Challenge
